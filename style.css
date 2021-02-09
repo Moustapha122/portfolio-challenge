@@ -1,0 +1,132 @@
+body{
+   background-color: aqua;
+
+    
+}
+.imge{
+    width: 400px;
+    margin-top: 100px;
+    padding-center: 50px;
+    border: solid;
+    border-color: yellowgreen;
+    animation: slideDown  1s infinite;
+}.imge{
+    transition: transform .5s;
+    
+}
+.imge:hover{
+    animation-play-state: paused;
+}
+.imge{
+    transform: scale(1.1) rotate(10deg);
+    
+}
+
+
+.paragra{
+   
+    margin-left: 500px;
+    position: absolute;; top:350px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  
+    
+
+}
+.name{
+    
+    text-shadow: 2px 2px 5px whitesmoke;
+             border: solid 2px  cornsilk;
+            text-align: center;
+    box-shadow: 8px 8px black;
+    
+
+}
+
+
+.nom{
+             margin-left: 500px;
+                position: absolute;; top:270px;
+}
+.lien{
+    margin-left: 500px;
+            position: absolute;; top:100px;
+    font-size: 30px;
+}
+.lien :hover{
+            background-color: black;
+    text-decoration: crimson;
+
+}
+a{
+    text-decoration: none;
+}
+.nom-1{
+    margin-left: 500px;
+    position: absolute;; top:300px;
+}
+.mon-cv{
+    margin-left: 80px;
+    position: absolute; top: 500px;
+    font-size: 30px;
+    font-weight: bolder;
+    padding:60px;
+}
+.mon-cv{
+    text-decoration: underline;
+}
+.fb{
+            width: 55px;
+            height: 55px;
+            position: relative;left:1000px ;
+            bottom: 45px;
+            border-radius: 20px;
+            margin-right: 100px;
+    
+}
+    .fb:hover{
+    background-color: blue;
+}
+.tw{
+    
+            width: 50px;
+            height: 50px;
+            position: relative;left:1100px ;
+            bottom: 100px;
+            border-radius: 20px;
+}
+.tw:hover{
+    background-color: blue;
+}
+
+    .insta{
+            width: 50px;
+            height: 50px;
+            position: relative;left:1150px ;
+            bottom: 100px;
+            border-radius: 20px;
+}
+.insta:hover{
+    background-color:palevioletred;
+}
+.logo img{
+    width: 100px;
+}
+.menu-nav{display: flex;
+flex-direction: row;
+justify-content:space-around;
+font-size: 20px;
+
+}
+@keyframes slideDown{
+    from{
+        transform:translateY(200px)
+        opacity : 0s;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1s;
+    }
+}
+
