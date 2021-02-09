@@ -1,0 +1,124 @@
+body{
+    background-color: aqua;
+}
+.piste{
+    margin-left: 500px;
+    position: absolute;; top: 150px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+    
+}
+.image1{
+    width: 600px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-center: 50px;
+    border: solid;
+    border-color: yellowgreen;
+    border-radius: 20px ;
+   
+}
+
+.image2{
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-center: 50px;
+    border: solid;
+    border-color: yellowgreen;
+    border-radius: 20px ;
+    
+}
+.image3{
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 350px;
+    padding-center: 50px;
+    border: solid;
+    border-color: yellowgreen;
+    border-radius: 20px ;
+}
+.image4{
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    padding-center: 50px;
+    border: solid;
+    border-color: yellowgreen;
+    border-radius: 20px ;
+    
+}
+.lien{
+    margin-left: 550px;
+    position: absolute;top: 20px;
+    font-size: 30px;
+}
+a:hover{
+    
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+.fb{
+    width: 55px;
+    height: 55px;
+    position: relative;left:1000px ;
+    bottom: 45px;
+    border-radius: 20px;
+
+}
+.fb:hover{
+background-color: blue;
+}
+.tw{
+
+    width: 50px;
+    height: 50px;
+    position: relative;left:1100px ;
+    bottom: 100px;
+    border-radius: 20px;
+}
+.tw:hover{
+background-color: blue;
+}
+
+.insta{
+    width: 50px;
+    height: 50px;
+    position: relative;left:1150px ;
+    bottom: 100px;
+    border-radius: 20px;
+}
+.insta:hover{
+background-color:palevioletred;}
+.menu-nav{display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-size: 20px;}
+    .logo img{
+        width: 100px;
+
+    }
+    .logo{
+        {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            background-color: red;
+            animation-name: example;
+            animation-duration: 5s;
+            animation-iteration-count: 5;
+            animation-direction: reverse;
+    }
+    
+
+
+
